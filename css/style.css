@@ -1,0 +1,126 @@
+/* Header */
+.header-bg, .footer-bg {
+    width: 100%;
+    margin: 0 auto;
+    background: #67bdc9;
+}
+
+.header-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    font-size: 1.5em;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+#header-logo {
+    max-width: 80px;
+    min-height: 40px;
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 25px;
+}
+
+.header-menu a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Body */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.home, .about{
+    max-width: 700px;
+    min-height: 500px;
+}
+
+
+.home h1, .about h1{
+    font-size: 1.5em;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    line-height: 1.8em;
+    text-align: center;
+}
+
+.home h2, .about h2 {
+    font-size: 1.25em;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.8em;
+    border-bottom: 2px solid #67bdc9;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.home p, .about p {
+    font-size: 1.1em;
+    font-family: 'DM Sans', sans-serif;
+    padding: 5px;
+    border-bottom: 2px solid #67bdc9;
+}
+
+.booksLib-home, .booksLib-about {
+    max-width: 200px;
+    min-height: 90px;
+    border-radius: 5px;
+    border-bottom: 10px solid #67bdc9;
+}
+
+.home p {
+    text-align: right;
+}
+
+.about p {
+    text-align: left;
+}
+
+/* Images */
+.booksLib-home {
+    float: left;
+}
+
+.booksLib-about {
+    float: right;
+}
+
+/* Footer */
+.footer-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+}
+
+.footer-info h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.25em;
+}
+
+@media (max-width: 400px) {
+    .footer-info h1 {
+        font-size: 1.15em;
+    }
+}
+
+@media (max-width: 350px) {
+    .footer-info h1 {
+        font-size: 1.05em;
+    }
+}
+
+
